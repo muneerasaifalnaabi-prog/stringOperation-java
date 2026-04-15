@@ -32,6 +32,8 @@ public class StringDoWhileDemo {
         System.out.println("Total lowercase letters:"+lowercase);
         System.out.println("Total spaces:"+spaces);
 
+        //end
+
 
 
 
