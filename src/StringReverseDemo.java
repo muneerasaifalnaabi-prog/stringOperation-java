@@ -7,6 +7,9 @@ public class StringReverseDemo {
         System.out.println("Total characters:"+text.length());
 
         System.out.println("Forward char order :");
+        for(int i=0;i<text.length();i++){
+            System.out.println(text.charAt(i));
+        }
 
 
     }
