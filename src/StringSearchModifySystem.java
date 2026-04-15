@@ -13,5 +13,13 @@ public class StringSearchModifySystem {
         System.out.println("Enter word to search:");
         String searchWord=sc.next();
 
+        if(text.contains(searchWord)){
+            System.out.println("Word found");
+        }
+        else{
+            System.out.println("Word not found");
+        }
+
+
     }
 }
