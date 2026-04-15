@@ -17,11 +17,16 @@ public class StringLoopDemo {
         for(int i=0;i<text.length();i++){
             char ch=text.charAt(i);
             ch=Character.toLowerCase(ch);
-
-
-
-
-
+            if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
+                vowels++;
+            }
+            else if(ch>='a'&&ch<='z'){
+                consonants++;
+            }
+            else if(ch>='0'&&ch<='9'){
+                digits++;
+            }
+        }
 
 
     }
