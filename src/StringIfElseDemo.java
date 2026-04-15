@@ -10,6 +10,16 @@ public class StringIfElseDemo {
         else{
             System.out.println("Username too short");
         }
+
+        String password="Munee1234";
+
+        if(password.equals("Munee1234")){
+            System.out.println("Password correct");
+        }
+        else{
+            System.out.println("Password incorrect");
+        }
+
     }
 
 
