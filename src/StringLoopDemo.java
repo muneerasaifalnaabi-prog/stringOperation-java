@@ -4,6 +4,10 @@ public class StringLoopDemo {
 
         String text = "Hello World 123";
         System.out.println("original string :" + text);
+        System.out.println("  number of characters :" + text.length());
+
+
+
 
 
     }
