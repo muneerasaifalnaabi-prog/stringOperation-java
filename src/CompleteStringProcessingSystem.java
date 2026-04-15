@@ -14,6 +14,14 @@ public class CompleteStringProcessingSystem {
         System.out.println("Lowercase:"+text.toLowerCase());
 
         System.out.println("Enter word to search:");
+        String word=sc.next();
+        if(text.contains(word)){
+            System.out.println("Word found");
+        }
+        else{
+            System.out.println("Word not found");
+        }
+
 
 
     }
