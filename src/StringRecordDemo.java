@@ -8,7 +8,13 @@ public class StringRecordDemo {
 
         String str1 ="Order";
         String str2 ="order";
-        System.out.println("Order equals order"+ str1.equalsIgnoreCase(str2))
+        System.out.println("Order equals order"+ str1.equalsIgnoreCase(str2));
+
+        String[] parts =cleanedRecord.split(" ");
+        System.out.println("Part 1"+ parts[0]);
+        System.out.println("Part 2"+ parts[1]);
+
+
 
     }
 
