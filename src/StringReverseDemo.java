@@ -18,6 +18,8 @@ public class StringReverseDemo {
             System.out.println(ch);
             reversed+=ch;
         }
+        System.out.println("Reversed string:"+reversed);
+
 
 
     }
