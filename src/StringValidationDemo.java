@@ -4,5 +4,7 @@ public class StringValidationDemo {
         System.out.println(username);
         System.out.println("Starts with user"+ username.startsWith("user"));
 
+        System.out.println("Ends with .com"+ username.endsWith(".com"));
+
     }
 }
