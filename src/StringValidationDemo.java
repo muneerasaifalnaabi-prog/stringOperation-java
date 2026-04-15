@@ -6,5 +6,8 @@ public class StringValidationDemo {
 
         System.out.println("Ends with .com"+ username.endsWith(".com"));
 
+        String updatedUser =username.replace("_"," ");
+        System.out.println("After replace"+ updatedUser);
+
     }
 }
