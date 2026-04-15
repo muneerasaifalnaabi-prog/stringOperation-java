@@ -1,5 +1,9 @@
 public class StringIfElseIfDemo {
-    String text="Muneera Saif ";
+    public static void main(String[] args) {
+        String text="Muneera Saif ";
+        System.out.println("Original string:"+text);
+    }
+
 
 
 
