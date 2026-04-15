@@ -19,6 +19,10 @@ public class StringIfElseDemo {
         else{
             System.out.println("Password incorrect");
         }
+        if(username.contains("M")){
+            System.out.println("Username contains 'M'");
+        }
+
 
     }
 
