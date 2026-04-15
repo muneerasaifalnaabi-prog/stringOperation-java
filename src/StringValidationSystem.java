@@ -9,6 +9,7 @@ public class StringValidationSystem {
         System.out.println("Original:"+text);
         System.out.println("Length:"+text.length());
         System.out.println("Uppercase:"+text.toUpperCase());
+        System.out.println("Lowercase:"+text.toLowerCase());
 
 
 
