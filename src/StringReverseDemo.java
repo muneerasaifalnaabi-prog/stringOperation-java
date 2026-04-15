@@ -11,7 +11,7 @@ public class StringReverseDemo {
             System.out.println(text.charAt(i));
         }
 
-        System.out.println("Reverse:");
+        System.out.println("Reverse oreder char:");
 
 
     }
