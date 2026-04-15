@@ -22,6 +22,9 @@ public class CompleteStringProcessingSystem {
             System.out.println("Word not found");
         }
 
+        System.out.println("Enter another string:");
+
+
 
 
     }
