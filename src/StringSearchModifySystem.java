@@ -19,6 +19,12 @@ public class StringSearchModifySystem {
         else{
             System.out.println("Word not found");
         }
+        System.out.println("Enter word to replace:");
+        String oldWord=sc.next();
+        System.out.println("Enter replacement word:");
+        String newWord=sc.next();
+        String modified=text.replace(oldWord,newWord);
+        System.out.println("Modified:"+modified);
 
 
     }
