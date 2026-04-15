@@ -4,5 +4,6 @@ public class StringDataDemo {
         System.out.println(employeeMessage);
         System.out.println("Uppercase"+ employeeMessage.toUpperCase());
         System.out.println("Lowercase"+ employeeMessage.toLowerCase());
+        System.out.println("Position of meeting"+ employeeMessage.indexOf("meeting"));
     }
 }
