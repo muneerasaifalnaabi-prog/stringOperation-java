@@ -29,6 +29,13 @@ public class StringAnalysisSystem {
         }
 
         System.out.println("First character:"+text.charAt(0));
+        if(text.length()>10){
+            System.out.println("String is long");
+        }
+        else{
+            System.out.println("String is short");
+        }
+
 
 
 
