@@ -26,6 +26,10 @@ public class StringSearchModifySystem {
         String modified=text.replace(oldWord,newWord);
         System.out.println("Modified:"+modified);
 
+        System.out.println("First 5 chars:"+modified.substring(0,5));
+        System.out.println("Last character:"+modified.charAt(modified.length()-1));
+
+
 
     }
 }
