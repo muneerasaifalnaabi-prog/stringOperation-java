@@ -21,6 +21,16 @@ public class StringValidationSystem {
             System.out.println("Word not found");
         }
 
+        System.out.println("Enter another string for comparison:");
+        String text2=sc.nextLine();
+        if(text.equalsIgnoreCase(text2)){
+            System.out.println("Strings match");
+        }
+        else{
+            System.out.println("Strings do not match");
+        }
+
+
 
 
 
