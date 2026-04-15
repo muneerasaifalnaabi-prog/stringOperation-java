@@ -46,6 +46,14 @@ public class CompleteStringProcessingSystem {
         }
         System.out.println("Total vowels:"+vowels);
 
+        if(text.length()>10){
+            System.out.println("String is long");
+        }
+        else{
+            System.out.println("String is short");
+        }
+
+
 
 
 
