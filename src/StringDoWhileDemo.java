@@ -29,6 +29,9 @@ public class StringDoWhileDemo {
             index++;
         }while(index<text.length());
 
+        System.out.println("Total lowercase letters:"+lowercase);
+        System.out.println("Total spaces:"+spaces);
+
 
 
 
