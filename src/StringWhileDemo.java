@@ -13,6 +13,8 @@ public class StringWhileDemo {
             index++;
         }
         index=0;
+        int spaces=0;
+
 
 
 
