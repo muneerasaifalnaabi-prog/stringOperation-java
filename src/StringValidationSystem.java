@@ -29,6 +29,14 @@ public class StringValidationSystem {
         else{
             System.out.println("Strings do not match");
         }
+        System.out.println("Extract first 5 chars:"+text.substring(0,5));
+
+        if(text.length()>5){
+            System.out.println("String length OK");
+        }
+        else{
+            System.out.println("String too short");
+        }
 
 
 
