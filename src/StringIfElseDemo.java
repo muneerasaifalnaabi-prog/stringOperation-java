@@ -3,6 +3,10 @@ public class StringIfElseDemo {
         String username="Muneera Saif ";
 
         System.out.println("Username:"+username);
+
+        if(username.length()>5){
+            System.out.println(" the condition is true ");
+        }
     }
 
 
