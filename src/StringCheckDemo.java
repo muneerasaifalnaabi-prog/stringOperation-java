@@ -7,6 +7,7 @@ public class StringCheckDemo {
         System.out.println("extract part of messege" + messege.substring(10,13));
 
         System.out.println("replace fun with game"+messege.replace("fun","game"));
+        System.out.println("game exits :"+messege.contains("game"));
 
 
     }
