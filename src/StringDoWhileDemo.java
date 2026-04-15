@@ -18,6 +18,18 @@ public class StringDoWhileDemo {
         int lowercase=0;
         int spaces=0;
 
+        do{
+            char ch=text.charAt(index);
+            if(ch>='a'&&ch<='z'){
+                lowercase++;
+            }
+            if(ch==' '){
+                spaces++;
+            }
+            index++;
+        }while(index<text.length());
+
+
 
 
 
