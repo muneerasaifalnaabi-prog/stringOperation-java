@@ -32,6 +32,7 @@ public class CompleteStringProcessingSystem {
         else{
             System.out.println("Strings do not match");
         }
+        System.out.println("First character:"+text.charAt(0));
 
 
 
