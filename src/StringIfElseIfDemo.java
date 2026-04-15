@@ -18,6 +18,11 @@ public class StringIfElseIfDemo {
             System.out.println("String matches helloworld");
         }
 
+        else{
+            System.out.println("Default case");
+        }
+
+
 
     }
 
