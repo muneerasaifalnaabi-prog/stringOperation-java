@@ -9,6 +9,15 @@ public class StringCompareValidateSystem {
         System.out.println("Original:" + text1);
         System.out.println("Length:" + text1.length());
 
+        System.out.println("Enter second string:");
+        String text2=sc.nextLine();
+        if(text1.equals(text2)){
+            System.out.println("Strings are equal");
+        }
+        else{
+            System.out.println("Strings are different");
+        }
+
 
     }
 }
