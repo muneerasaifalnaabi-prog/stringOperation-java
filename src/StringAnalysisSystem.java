@@ -18,6 +18,16 @@ public class StringAnalysisSystem {
             System.out.println("Word not found");
         }
 
+        System.out.println("Enter another string:");
+        sc.nextLine();
+        String text2=sc.nextLine();
+        if(text.equalsIgnoreCase(text2)){
+            System.out.println("Strings match");
+        }
+        else{
+            System.out.println("not match");
+        }
+
 
 
     }
