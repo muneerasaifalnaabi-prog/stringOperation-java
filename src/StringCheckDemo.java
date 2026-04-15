@@ -4,5 +4,8 @@ public class StringCheckDemo {
         String messege ="This is for fun ";
         System.out.println(messege);
 
+        System.out.println("extract part of messege" + messege.substring(10,13));
+
+
     }
 }
