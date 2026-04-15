@@ -26,6 +26,7 @@ public class StringWhileDemo {
             }
             index++;
         }
+        System.out.println("Total spaces:"+spaces);
 
 
         }
