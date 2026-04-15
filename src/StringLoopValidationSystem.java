@@ -22,6 +22,8 @@ public class StringLoopValidationSystem {
                 vowels++;
             }
 
+            System.out.println("Total vowels:"+vowels);
+
 
         }
     }}
