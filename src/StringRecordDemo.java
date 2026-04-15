@@ -16,6 +16,8 @@ public class StringRecordDemo {
 
         System.out.println("Is empty"+ customerRecord.isEmpty());
 
+        System.out.println("First char"+ cleanedRecord.charAt(0));
+
 
 
     }
