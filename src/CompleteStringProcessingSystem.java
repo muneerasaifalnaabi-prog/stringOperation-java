@@ -5,6 +5,7 @@ public class CompleteStringProcessingSystem {
 
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a string:");
+        String text=sc.nextLine();
 
     }
 }
