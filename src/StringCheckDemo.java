@@ -8,6 +8,7 @@ public class StringCheckDemo {
 
         System.out.println("replace fun with game"+messege.replace("fun","game"));
         System.out.println("game exits :"+messege.contains("game"));
+        System.out.println(messege.charAt(0));
 
 
     }
