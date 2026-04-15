@@ -14,6 +14,10 @@ public class StringLoopDemo {
         int consonants=0;
         int digits=0;
 
+        for(int i=0;i<text.length();i++){
+            char ch=text.charAt(i);
+            ch=Character.toLowerCase(ch);
+
 
 
 
