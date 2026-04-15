@@ -3,6 +3,10 @@ public class StringWhileDemo {
         String text="Hello World Java Programming";
         System.out.println("Original string:"+text);
 
+        int length=text.length();
+
+
+
 
     }
 }
