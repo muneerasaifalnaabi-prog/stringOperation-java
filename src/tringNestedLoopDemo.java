@@ -6,6 +6,9 @@ public class tringNestedLoopDemo {
         System.out.println("String 1:"+text1);
         System.out.println("String 2:"+text2);
 
+        System.out.println("Length 1:"+text1.length());
+        System.out.println("Length 2:"+text2.length());
+
     }
 
 
