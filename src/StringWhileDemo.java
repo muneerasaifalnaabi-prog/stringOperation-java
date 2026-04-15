@@ -12,6 +12,7 @@ public class StringWhileDemo {
             System.out.println(ch);
             index++;
         }
+        index=0;
 
 
 
