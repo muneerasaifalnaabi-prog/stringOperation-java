@@ -6,6 +6,8 @@ public class StringDoWhileDemo {
         System.out.println("Original string:" + text);
 
         System.out.println("Total characters:"+text.length());
+        int index=0;
+        System.out.println("Each character:");
 
     }
 }
