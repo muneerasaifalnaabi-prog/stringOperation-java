@@ -14,5 +14,7 @@ public class StringDoWhileDemo {
             index++;
         }while(index<text.length());
 
+
+
     }
 }
