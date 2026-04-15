@@ -9,5 +9,8 @@ public class StringLoopValidationSystem {
         System.out.println("Enter a string:");
         String text=sc.nextLine();
 
+        System.out.println("Original:"+text);
+        System.out.println("Length:"+text.length());
+
     }
 }
