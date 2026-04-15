@@ -7,7 +7,7 @@ public class StringDataDemo {
         System.out.println("Position of meeting"+ employeeMessage.indexOf("meeting"));
         System.out.println("Extract PM"+ employeeMessage.substring(16,18));
 
-        //System.out.println("Contains 3PM"+ employeeMessage.contains("3PM"));
+        System.out.println("Contains 3PM"+ employeeMessage.contains("3PM"));
 
     }
 }
