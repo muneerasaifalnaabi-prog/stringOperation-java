@@ -11,6 +11,7 @@ public class StringCheckDemo {
         System.out.println(messege.charAt(0));
 
         String messege1 ="Hello world ";
+        System.out.println(messege1.toUpperCase());
 
 
     }
