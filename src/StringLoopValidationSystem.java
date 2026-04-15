@@ -7,6 +7,7 @@ public class StringLoopValidationSystem {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter a string:");
+        String text=sc.nextLine();
 
     }
 }
