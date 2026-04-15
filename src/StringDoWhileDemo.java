@@ -1,4 +1,9 @@
 public class StringDoWhileDemo {
-    String text="Hello World Java Programming";
+    public static void main(String[] args) {
 
+
+        String text = "Hello World Java Programming";
+        System.out.println("Original string:" + text);
+
+    }
 }
