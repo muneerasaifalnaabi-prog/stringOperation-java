@@ -10,6 +10,8 @@ public class StringCheckDemo {
         System.out.println("game exits :"+messege.contains("game"));
         System.out.println(messege.charAt(0));
 
+        String messege1 ="Hello world ";
+
 
     }
 }
