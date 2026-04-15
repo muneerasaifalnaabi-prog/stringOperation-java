@@ -17,6 +17,8 @@ public class StringMenuDemo {
         System.out.println("4. Contains 'java'");
         System.out.println("5. Compare with another string");
 
+        int choice=sc.nextInt();
+
 
     }
 }
