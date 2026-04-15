@@ -7,5 +7,7 @@ public class CompleteStringProcessingSystem {
         System.out.println("Enter a string:");
         String text=sc.nextLine();
 
+        System.out.println("Original:"+text);
+
     }
 }
