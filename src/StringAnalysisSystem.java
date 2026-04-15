@@ -9,6 +9,15 @@ public class StringAnalysisSystem {
         System.out.println("Original:"+text);
         System.out.println("Length:"+text.length());
 
+        System.out.println("Enter word to search:");
+        String word=sc.next();
+        if(text.contains(word)){
+            System.out.println("Word found");
+        }
+        else{
+            System.out.println("Word not found");
+        }
+
 
 
     }
