@@ -14,6 +14,11 @@ public class StringDoWhileDemo {
             index++;
         }while(index<text.length());
 
+        index=0;
+        int lowercase=0;
+        int spaces=0;
+
+
 
 
     }
