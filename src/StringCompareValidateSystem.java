@@ -18,6 +18,32 @@ public class StringCompareValidateSystem {
             System.out.println("Strings are different");
         }
 
+        System.out.println("Enter prefix:");
+        String prefix=sc.next();
+        if(text1.startsWith(prefix)){
+            System.out.println("Starts with prefix");
+        }
+        else{
+            System.out.println("Does not start with prefix");
+        }
+
+        System.out.println("Enter suffix:");
+        String suffix=sc.next();
+        if(text1.endsWith(suffix)){
+            System.out.println("Ends with suffix");
+        }
+        else{
+            System.out.println("Does not end with suffix");
+        }
+
+        if(text1.length()>8){
+            System.out.println("String is long");
+        }
+        else{
+            System.out.println("String is short");
+        }
+
+
 
     }
 }
