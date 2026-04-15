@@ -9,6 +9,8 @@ public class CompleteStringProcessingSystem {
 
         System.out.println("Original:"+text);
         System.out.println("Length:"+text.length());
+        System.out.println("Uppercase:"+text.toUpperCase());
+
 
     }
 }
