@@ -13,6 +13,8 @@ public class CompleteStringProcessingSystem {
 
         System.out.println("Lowercase:"+text.toLowerCase());
 
+        System.out.println("Enter word to search:");
+
 
     }
 }
