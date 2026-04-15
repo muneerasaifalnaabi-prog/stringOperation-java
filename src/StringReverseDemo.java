@@ -20,6 +20,14 @@ public class StringReverseDemo {
         }
         System.out.println("Reversed string:"+reversed);
 
+        int countA=0;
+        for(int i=0;i<text.length();i++){
+            if(text.charAt(i)=='a'){
+                countA++;
+            }
+        }
+        System.out.println("Character 'a' appears:"+countA+" times");
+
 
 
     }
