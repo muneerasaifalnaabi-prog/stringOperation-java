@@ -10,5 +10,8 @@ public class StringSearchModifySystem {
 
         System.out.println("Original:"+text);
 
+        System.out.println("Enter word to search:");
+        String searchWord=sc.next();
+
     }
 }
