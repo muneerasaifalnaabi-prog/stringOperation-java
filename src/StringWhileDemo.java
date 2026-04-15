@@ -21,6 +21,11 @@ public class StringWhileDemo {
             if (ch == ' ') {
                 spaces++;
             }
+            if(ch>='A'&&ch<='Z'){
+                uppercase++;
+            }
+            index++;
+        }
 
 
         }
