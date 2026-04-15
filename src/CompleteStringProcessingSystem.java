@@ -8,6 +8,7 @@ public class CompleteStringProcessingSystem {
         String text=sc.nextLine();
 
         System.out.println("Original:"+text);
+        System.out.println("Length:"+text.length());
 
     }
 }
