@@ -21,6 +21,11 @@ public class tringNestedLoopDemo {
         }
         System.out.println("Total matching characters:"+matches);
 
+        String str1="Java";
+        String str2="Cat";
+        System.out.println("Word1:"+str1);
+        System.out.println("Word2:"+str2);
+
     }
 
 
