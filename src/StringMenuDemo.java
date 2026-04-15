@@ -19,6 +19,39 @@ public class StringMenuDemo {
 
         int choice=sc.nextInt();
 
+        switch(choice){
+            case 1:
+                System.out.println("Length:"+text.length());
+                break;
+            case 2:
+                System.out.println("Uppercase:"+text.toUpperCase());
+                break;
+            case 3:
+                System.out.println("Lowercase:"+text.toLowerCase());
+                break;
+            case 4:
+                if(text.contains("java")){
+                    System.out.println("Contains java");
+                }
+                else{
+                    System.out.println("Does not contain java");
+                }
+                break;
+            case 5:
+                sc.nextLine();
+                System.out.println("Enter another string:");
+                String text2=sc.nextLine();
+                if(text.equalsIgnoreCase(text2)){
+                    System.out.println("Strings match");
+                }
+                else{
+                    System.out.println("Strings do not match");
+                }
+                break;
+            default:
+                System.out.println("Invalid choice");
+        }
+
 
     }
 }
