@@ -34,6 +34,17 @@ public class CompleteStringProcessingSystem {
         }
         System.out.println("First character:"+text.charAt(0));
 
+        System.out.println("Each character:");
+        int vowels=0;
+        for(int i=0;i<text.length();i++){
+            char ch=text.charAt(i);
+            System.out.println(ch);
+            ch=Character.toLowerCase(ch);
+            if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
+                vowels++;
+            }
+        }
+
 
 
 
