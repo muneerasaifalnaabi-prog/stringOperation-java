@@ -27,6 +27,8 @@ public class StringWhileDemo {
             index++;
         }
         System.out.println("Total spaces:"+spaces);
+        System.out.println("Total uppercase letters:"+uppercase);
+
 
 
         }
