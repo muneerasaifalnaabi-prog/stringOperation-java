@@ -5,6 +5,14 @@ public class StringWhileDemo {
 
         System.out.println("Total characters:"+text.length());
 
+        int index=0;
+        System.out.println("Each character:");
+        while(index<text.length()){
+            char ch=text.charAt(index);
+            System.out.println(ch);
+            index++;
+        }
+
 
 
     }
