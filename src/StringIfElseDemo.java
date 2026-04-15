@@ -22,6 +22,12 @@ public class StringIfElseDemo {
         if(username.contains("M")){
             System.out.println("Username contains 'M'");
         }
+        if(username.isEmpty()){
+            System.out.println("Username is empty");
+        }
+        else{
+            System.out.println("Username is not empty");
+        }
 
 
     }
