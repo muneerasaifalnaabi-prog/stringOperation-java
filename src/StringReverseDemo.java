@@ -29,7 +29,7 @@ public class StringReverseDemo {
         System.out.println("Character 'a' appears:"+countA+" times");
 
         System.out.println("Original :"+text);
-       // System.out.println("Reversed:"+reversed);
+        System.out.println("Reversed:"+reversed);
 
 
 
