@@ -11,5 +11,7 @@ public class StringValidationDemo {
 
         System.out.println("Extract gmail part"+ username.substring(0,12));
 
+        System.out.println("Username length"+ username.length());
+
     }
 }
