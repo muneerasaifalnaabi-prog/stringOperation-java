@@ -9,6 +9,9 @@ public class StringAnalysisDemo {
         System.out.println("Both feedbacks equal"+ customerFeedback.equals(customerFeedback2));
         System.out.println("Position of store"+ customerFeedback.indexOf("store"));
 
+        System.out.println("Starts with Welcome"+ customerFeedback.startsWith("Welcome"));
+        System.out.println("Ends with store"+ customerFeedback.endsWith("store"));
+
 
 
     }
