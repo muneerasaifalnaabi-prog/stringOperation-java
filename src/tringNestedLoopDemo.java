@@ -19,6 +19,7 @@ public class tringNestedLoopDemo {
                 }
             }
         }
+        System.out.println("Total matching characters:"+matches);
 
     }
 
