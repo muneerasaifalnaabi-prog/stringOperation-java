@@ -9,5 +9,7 @@ public class StringValidationDemo {
         String updatedUser =username.replace("_"," ");
         System.out.println("After replace"+ updatedUser);
 
+        System.out.println("Extract gmail part"+ username.substring(0,12));
+
     }
 }
