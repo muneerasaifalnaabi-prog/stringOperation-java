@@ -29,6 +29,13 @@ public class StringSearchModifySystem {
         System.out.println("First 5 chars:"+modified.substring(0,5));
         System.out.println("Last character:"+modified.charAt(modified.length()-1));
 
+        if(modified.length()>8){
+            System.out.println("Modified string is long");
+        }
+        else{
+            System.out.println("Modified string is short");
+        }
+
 
 
     }
