@@ -44,6 +44,7 @@ public class CompleteStringProcessingSystem {
                 vowels++;
             }
         }
+        System.out.println("Total vowels:"+vowels);
 
 
 
