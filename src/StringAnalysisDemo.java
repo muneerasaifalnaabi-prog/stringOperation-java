@@ -5,6 +5,7 @@ public class StringAnalysisDemo {
         String customerFeedback = "Welcome to our store";
         System.out.println(customerFeedback);
         System.out.println("Length of feedback"+ customerFeedback.length());
+        String customerFeedback2 ="Welcome to our store";
 
 
     }
