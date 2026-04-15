@@ -9,6 +9,17 @@ public class tringNestedLoopDemo {
         System.out.println("Length 1:"+text1.length());
         System.out.println("Length 2:"+text2.length());
 
+        int matches=0;
+        System.out.println("Matching characters:");
+        for(int i=0;i<text1.length();i++){
+            for(int j=0;j<text2.length();j++){
+                if(text1.charAt(i)==text2.charAt(j)){
+                    System.out.println(text1.charAt(i));
+                    matches++;
+                }
+            }
+        }
+
     }
 
 
