@@ -10,6 +10,11 @@ public class StringLoopDemo {
             System.out.println(c);
         }
 
+        int vowels=0;
+        int consonants=0;
+        int digits=0;
+
+
 
 
 
