@@ -14,6 +14,8 @@ public class StringRecordDemo {
         System.out.println("Part 1"+ parts[0]);
         System.out.println("Part 2"+ parts[1]);
 
+        System.out.println("Is empty"+ customerRecord.isEmpty());
+
 
 
     }
