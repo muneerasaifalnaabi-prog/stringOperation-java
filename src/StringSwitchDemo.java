@@ -2,7 +2,7 @@ public class StringSwitchDemo {
     public static void main(String[] args) {
 
 
-        String role = "Admin";
+        String role = "Student";
         System.out.println("User role:" + role);
 
         switch(role){
