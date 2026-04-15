@@ -14,6 +14,7 @@ public class StringWhileDemo {
         }
         index=0;
         int spaces=0;
+        int uppercase=0;
 
 
 
