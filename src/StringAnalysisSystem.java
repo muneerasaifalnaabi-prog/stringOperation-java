@@ -28,6 +28,8 @@ public class StringAnalysisSystem {
             System.out.println("not match");
         }
 
+        System.out.println("First character:"+text.charAt(0));
+
 
 
     }
