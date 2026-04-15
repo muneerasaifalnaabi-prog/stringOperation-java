@@ -7,6 +7,9 @@ public class StringIfElseDemo {
         if(username.length()>5){
             System.out.println(" the condition is true ");
         }
+        else{
+            System.out.println("Username too short");
+        }
     }
 
 
