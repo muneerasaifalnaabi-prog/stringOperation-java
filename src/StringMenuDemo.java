@@ -14,7 +14,7 @@ public class StringMenuDemo {
         System.out.println("1. Length");
         System.out.println("2. To Uppercase");
         System.out.println("3. To Lowercase");
-        System.out.println("4. Contains 'java'");
+        System.out.println("4. searsh in your string ");
         System.out.println("5. Compare with another string");
 
         int choice=sc.nextInt();
@@ -30,15 +30,19 @@ public class StringMenuDemo {
                 System.out.println("Lowercase:"+text.toLowerCase());
                 break;
             case 4:
-                if(text.contains("java")){
-                    System.out.println("Contains java");
+                System.out.println("Enter word to searsh ");
+                String searsh= sc.nextLine();
+                sc.nextLine();
+                if(text.contains(searsh)){
+                    System.out.println("found it "+ searsh);
                 }
                 else{
-                    System.out.println("Does not contain java");
+                    System.out.println("Does not contain");
                 }
                 break;
             case 5:
                 sc.nextLine();
+
                 System.out.println("Enter another string:");
                 String text2=sc.nextLine();
                 if(text.equalsIgnoreCase(text2)){
