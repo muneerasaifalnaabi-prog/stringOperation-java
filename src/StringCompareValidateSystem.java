@@ -6,7 +6,7 @@ public class StringCompareValidateSystem {
 
         Scanner sc = new Scanner(System.in);
         String text1 = sc.nextLine();
-        System.out.println("Original:" + text1);
+        System.out.println("Original Text :" + text1);
         System.out.println("Length:" + text1.length());
 
         System.out.println("Enter second string:");
